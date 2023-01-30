@@ -1,9 +1,9 @@
-﻿using Catalog.Data;
-using Catalog.Entities;
+﻿using Catalog.API.Data;
+using Catalog.API.Entities;
 using MongoDB.Driver;
 using System.Xml.Linq;
 
-namespace Catalog.Repositories
+namespace Catalog.API.Repositories
 {
     public class ProductRepository :IProductRepository
     {

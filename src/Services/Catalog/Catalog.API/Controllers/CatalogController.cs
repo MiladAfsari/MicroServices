@@ -1,9 +1,9 @@
-﻿using Catalog.Entities;
-using Catalog.Repositories;
+﻿using Catalog.API.Entities;
+using Catalog.API.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace Catalog.Controllers
+namespace Catalog.API.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]

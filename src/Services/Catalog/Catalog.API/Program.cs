@@ -1,5 +1,5 @@
-using Catalog.Data;
-using Catalog.Repositories;
+using Catalog.API.Data;
+using Catalog.API.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
